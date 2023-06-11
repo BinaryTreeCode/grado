@@ -1,19 +1,59 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html />
+<html lang="es">
+
 <head>
-    <title>Ejemplo de iframe</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mutación</title>
+    <!-- importar libreria  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <meta name="viewport" content="width=device-width, inical-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>Página con iframe</h1>
-    <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
     border-radius: 8px; will-change: transform;">
      <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-       src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlXclWolg&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+       src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlXeTuO_Y&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
      </iframe>
    </div>
-   <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlXclWolg&#x2F;view?utm_content=DAFlXclWolg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Copia de Aplicaciones de la tecnología para la biología y la evolución natural</a> de Adrián Torres    
-    <h1>Página con iframe</h1>
-    <iframe src="https://binarytreecode.github.io/mutacion/" width="100%" height="800"></iframe>
+    <div class="contenedor" id="contenedor">
+        <!-- fomularios -->
+        <form action="">
+            <label for="veses">
+                <span>¿cuantas generacionses quieres?</span>
+                <input type="text" id="veses" placeholder="numero de generacionses" required />
+            </label>
+            <br>
+            <label for="individuos">
+                <span>¿Con cuantos individuos quieres comenzar el experimento?</span>
+                <input type="text" id="individuos" placeholder="numero inicial de individuos" required />
+            </label>
+            <br>
+        </form>
+        <canvas id="grafica" width="500" height="500"></canvas>
+        <label for="btn" class="text">
+            <span>muestra el avance evolutivo generación a generación</span>
+            <button id="btn">¿comenzar el experimento?</button>
+        </label>
+        <script src="./mutación.js"></script>
+    </div>
+    <picture>
+        <source srcset="./assets/Diagrama.png" type="image/png">
+        <img src="./assets/Diagrama.png" alt="Diagrama de flujo" />
+    </picture>
+
+    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+    border-radius: 8px; will-change: transform;">
+    <iframe loading="lazy" style="position: absolute; width: 100%; height: 90%; top: 0; left: 0; border: none; padding: 0;margin: 0;" 
+    src="https://encuesta.com/survey/nDlvvfYWag/encuesta-sobre-la-experiencia-de-usuario-en-una-pagina-web" 
+    allowfullscreen="allowfullscreen" allow="fullscreen"
+    ></iframe>
+   </div>
 </body>
+
 </html>

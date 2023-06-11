@@ -1,0 +1,31 @@
+/* maximo de la grafica */
+canvas {
+    max-width: 50rem;
+}
+
+/* centralización de elmentos y fondo */
+body {
+    display: grid;
+    place-items: center;
+    background-image:url(./assets/aDN-fondo.jpg);
+}
+
+/* margenes del contenedor y texto */
+.contenedor {
+    margin: 0;
+    margin-bottom: 2rem; /* rem = 17 * 2 = 34px */
+    margin-top: 1rem;
+    height: 100vh;
+    max-width: 50rem;
+    min-width: 40rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* color del canvas*/
+.contenedor canvas{
+    background-color: white; /*talvez solo darle ese color cuando apareca la grafica*/
+}
+.text {
+    display: block;
+}
