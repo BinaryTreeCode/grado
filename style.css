@@ -8,6 +8,7 @@ body {
     display: grid;
     place-items: center;
     background-image:url(./assets/aDN-fondo.jpg);
+    margin-top: 0;
 }
 
 /* margenes del contenedor y texto */
