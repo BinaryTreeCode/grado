@@ -25,7 +25,7 @@ body {
 
 /* color del canvas*/
 .contenedor canvas{
-    background-color: rgba(0, 0, 0, 0.132); /*talvez solo darle ese color cuando apareca la grafica*/
+    background-color: white; /*talvez solo darle ese color cuando apareca la grafica*/
     margin-bottom: 1.5rem;
 }
 .text {
